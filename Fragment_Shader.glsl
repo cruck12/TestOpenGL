@@ -12,7 +12,7 @@ uniform vec3 viewPos;
 
 void main(void)
 {
-	float specularStrength = 0.2f;
+	float specularStrength = 0.3f;
 
 	vec3 norm = normalize(Normal);
 	vec3 lightDir = normalize(lightPos - FragPos);
